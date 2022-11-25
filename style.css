@@ -55,8 +55,38 @@ button {
 footer {
   color: rgb(94, 94, 94);
   display: block;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
+.page-end {
+  padding: 30px 180px;
+}
+
+.pager1 {
+  padding: 0px  48px;
+  padding-top: 20px;
+}
+.pager {
+  font-size: 14px;
+  padding: 0px 48px;
+}
+
+li {
+  padding: 8px;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.flash {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  padding-top: 18px;
+  padding-bottom: 24px;
+}
+
+/*
 details summary {
   list-style: none;
 }
@@ -69,4 +99,17 @@ summary {
   justify-content: space-between;
   gap: 550;
 }
+*/
 
+.boring {
+  padding: 50px 120px;
+}
+
+.boring h2 {
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.boring p {
+  font-size: 30px;
+}
