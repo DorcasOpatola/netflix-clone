@@ -90,7 +90,7 @@ header img {
 }
 
 .iii div {
-  display: block;
+  display: inline;
   justify-content: center;
   align-items: center;
 }
@@ -101,12 +101,40 @@ header img {
   text-align: center;
 }
 
-li {
-  
+.sia {
+  height: 60px;
+  display: block;
+  border: 1px solid #8c8c8c;
+  width: 500px;
+  padding: 10px 10px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 2px;
+  background-color: white;
+  text-align: left;
+  color: #8c8c8c;
+  align-items: center;
+
+}
+#email:valid {
+  box-shadow: none;
+}
+#email:invalid {
+  box-shadow: #ffa00a;
 }
 
 h4 {
   font-size: 20px;
+}
+
+.ia {
+  height: 60px;
+  display: block;
+  border: 1px solid #8c8c8c;
+  background-color: #8c8c8c;
+  color: ;
+  width: 100%;
+  padding: 10px 10px 0;
 }
 
 .iii {
