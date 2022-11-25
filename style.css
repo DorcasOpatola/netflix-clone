@@ -32,7 +32,8 @@ hr {
   border: none;
 }
 
-button {
+.pie,
+.pi {
   background-color: red;
   color: white;
   padding: 30px 26px;
@@ -41,15 +42,78 @@ button {
   border: none;
   box-sizing: border-box;
   display: flex;
-  font-size: 20px;
+  font-size: 1rem;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   cursor: pointer;
+  flex: 1 1 auto;
 }
 
-.ii {
+.pri {
+  background-color: #e50914;
+  color: white;
+  border: none;
   display: flex;
+  font-size: 12px;
+  padding: 7px 17px;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+header a {
+  padding: 20px;
+}
+
+header img {
+  height: 90px;
+  width: 180px;
+}
+
+.iii h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+.iii h3 {
+  font-size: 26px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.iii div {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.iii form,
+.ask form {
+  padding-top: 40px;
+  text-align: center;
+}
+
+li {
+  
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.iii {
+  display: block;
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 footer {
