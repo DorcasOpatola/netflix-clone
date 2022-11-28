@@ -286,8 +286,6 @@ summary {
   width: 60%;
   position: absolute;
   display: flex;
-  transform: ;
-
 }
 
 .tabi {
@@ -296,4 +294,9 @@ summary {
 
 #tabii {
   color: #0071EB;
+}
+
+.icon {
+  width: 3em;
+  height: 3.75em;
 }
