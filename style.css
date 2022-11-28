@@ -233,3 +233,40 @@ summary {
   align-items: center;
   padding-left: 30px;
 }
+
+.live-show {
+  display: flex;
+  padding: 30px 10px;
+  align-items: center;
+}
+
+.live-notes {
+  padding: 70px 100px;
+}
+
+.live-notes h2 {
+  font-size: 50px;
+  margin: 8px;
+}
+
+.live-notes h3 {
+  font-size: 26px;
+  font-weight: normal;
+  margin: 15px 0px 5px;
+  max-width: 500px;
+}
+
+.tv1 {
+  position: relative;
+  z-index: 5;
+}
+
+.tv2 {
+  position: absolute;
+  max-width: 73%;
+  max-height: 54%;
+  transform: translate(15%, -120%);
+}
+
+.tv {
+}
