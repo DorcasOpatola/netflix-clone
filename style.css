@@ -208,3 +208,28 @@ summary {
 .boring p {
   font-size: 30px;
 }
+
+.kids {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  padding: 70px 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.kids h2 {
+  font-size: 50px;
+  margin: 8px;
+}
+
+.kids h4 {
+  font-size: 26px;
+  font-weight: normal;
+  margin: 15px 0px 5px;
+  max-width: 500px;
+}
+
+#kids {
+  align-items: center;
+  padding-left: 30px;
+}
