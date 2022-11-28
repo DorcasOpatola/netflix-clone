@@ -288,9 +288,20 @@ summary {
   display: flex;
   background-color: #000;
   transform: translateX(-50%);
-  left: 40%;
+  left: 22.5%;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
+  top: 230%;
+}
+
+.sttab {
+  display: flex;
+  padding: 0.25rem 0.65rem;
+}
+
+.sttab div {
+  padding-left: 20px;
 }
 
 .tabi {
@@ -299,9 +310,4 @@ summary {
 
 #tabii {
   color: #0071EB;
-}
-
-.icon {
-  width: 3em;
-  height: 3.75em;
 }
