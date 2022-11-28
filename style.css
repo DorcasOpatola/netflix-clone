@@ -104,6 +104,13 @@ header img {
 
 }
 
+.pie {
+  font-size: 16px;
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+}
+
 .sia {
   height: 60px;
   display: flex;
@@ -265,7 +272,7 @@ summary {
   position: absolute;
   max-width: 73%;
   max-height: 54%;
-  transform: translate(15%, -120%);
+  transform: translate(16.8%, -142%);
 }
 
 .tv {
