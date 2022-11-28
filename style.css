@@ -283,9 +283,14 @@ summary {
   border: 2px solid hsla(0,0%,100%,.25);
   border-radius: 0.75em;
   padding: 0.35rem 0.75rem;
-  width: 60%;
+  width: 30%;
   position: absolute;
   display: flex;
+  background-color: #000;
+  transform: translateX(-50%);
+  left: 40%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .tabi {
