@@ -104,7 +104,7 @@ header img {
 
 .iii form input,
 .ask form input {
-  padding: 10px;
+  padding: 20px;
 
 }
 
@@ -115,21 +115,6 @@ header img {
   color: #fff;
 }
 
-.sia {
-  height: 60px;
-  display: flex;
-  border: 1px solid #8c8c8c;
-  width: 500px;
-  padding: 10px 10px 0;
-  box-sizing: border-box;
-  font-size: 16px;
-  border-radius: 2px;
-  background-color: white;
-  text-align: left;
-  color: #8c8c8c;
-  align-items: center;
-
-}
 #email:valid {
   box-shadow: none;
 }
@@ -365,10 +350,24 @@ summary {
 }
 
 summary {
-  display: inline;
+  display: inline-flex;
   margin: 10px;
 }
 
 .faq-div {
   padding: 0px 190px;
+}
+
+.form-faq {
+  padding-bottom: 70px;
+}
+
+.form-faq input {
+  position: relative;
+}
+
+.form-faq label {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
 }
