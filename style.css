@@ -339,7 +339,7 @@ summary {
 .faq h1 {
   font-size: 50px;
   text-align: center;
-  padding-bottom: 45px;
+  padding-bottom: 35px;
 }
 
 .faq {
@@ -352,12 +352,23 @@ summary {
   background-color: #303030;
   border: none;
   font-size: 26px;
+  margin: 10px;
 }
 
 .ia span {
   font-size: 26px;
 }
 
+.ia p {
+  padding-top: 10px;
+  margin: 10px;
+}
+
 summary {
   display: inline;
+  margin: 10px;
+}
+
+.faq-div {
+  padding: 0px 190px;
 }
