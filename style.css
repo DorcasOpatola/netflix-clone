@@ -32,8 +32,8 @@ body {
 }
 
 hr {
-  height: 7px;
-  background-color: rgb(34, 31, 31);
+  height: 8px;
+  background-color: #222;
   border: none;
 }
 
@@ -89,7 +89,7 @@ header img {
 .iii h4,
 .ask h4 {
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -336,3 +336,28 @@ summary {
   padding: 20px 70px;
 }
 
+.faq h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.faq {
+  padding: 50px;
+}
+
+.ia {
+  height: auto;
+  padding-bottom: 10px;
+  background-color: #303030;
+  border: none;
+  font-size: 26px;
+}
+
+.ia span {
+  font-size: 26px;
+}
+
+summary {
+  display: inline;
+}
