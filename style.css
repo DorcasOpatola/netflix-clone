@@ -109,10 +109,11 @@ header img {
 }
 
 .pie {
-  font-size: 16px;
+  font-size: 24px;
   background-color: #e50914;
   border: none;
   color: #fff;
+  padding: 0px 25px;
 }
 
 #email:valid {
@@ -125,15 +126,6 @@ header img {
 h4 {
   font-size: 20px;
   font-weight: normal;
-}
-
-.ia {
-  height: 60px;
-  display: block;
-  border: 1px solid #8c8c8c;
-  background-color: #8c8c8c;
-  width: 100%;
-  padding: 10px 10px 0;
 }
 
 .iii {
@@ -273,11 +265,11 @@ summary {
   display: flex;
   background-color: #000;
   transform: translateX(-50%);
-  left: 23.7%;
+  left: 23.2%;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  top: 218%;
+  top: 238%;
   box-shadow: 0 0 2em 0 #000;
 }
 
@@ -350,8 +342,9 @@ summary {
 }
 
 summary {
-  display: inline-flex;
+  display: flex;
   margin: 10px;
+  justify-content: space-between;
 }
 
 .faq-div {
@@ -370,4 +363,8 @@ summary {
   position: absolute;
   color: rgb(0, 0, 0);
   font-size: 16px;
+}
+
+#pool {
+  font-weight: lighter;
 }
